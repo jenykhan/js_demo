@@ -1,0 +1,78 @@
+<!Doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BT5</title>
+    <!--css links-->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet"  href="css/media.css">
+  </head>
+  <body>
+
+   <h1 class="text-info">click the button to show the date</h1>
+   <button type="button" class="btn btn-primary" onclick="test()">click me</button>
+  <p id="p"></p> 
+  
+
+   <img id="img" src="images/on.gif" alt="">
+   <br>
+
+  <button type="button" class="btn btn-primary" onclick="on()">on</button>         
+  <button type="button" class="btn btn-primary" onclick="off()">off</button> 
+<br>
+
+
+
+  <p id="n">JavaScript can hide HTML elements.</p>
+
+<button type="button" class="btn btn-primary "onclick="none()">Click Me!</button>
+<br>
+
+<p id="demo">use of let</p>
+<br>
+<h2 id="ev">Events</h2>
+<button onclick="on()">The time is</button>
+
+<br>
+<p id="demo">script</p>
+<script>
+let answer1 = "It's alright";
+let answer2 = "He is called 'Johnny'";
+let answer3 = 'He is called "Johnny"'; 
+
+document.getElementById("demo").innerHTML =
+answer1 + "<br>" + answer2 + "<br>" + answer3; 
+</script>
+<br>
+<p id="demo">arrey</p>
+
+<script>
+const cars = ["Saab", "Volvo", "BMW"];
+document.getElementById("demo").innerHTML = cars;
+</script>
+<br>
+<p id="e">number</p>
+
+<p id="a">ASSIGNMENT OPERATOR</p>
+
+<p id="v">javascript variable</p>
+ 
+
+
+
+<p id="op">javascript operator</p>
+
+
+  <h2>FONT SIZE CHANGE</h2>
+<button type="button" class="btn btn_common" onclick="font()">Font size</button>
+
+  <p id="p">Lorem ipsum dolor sit.</p>
+
+  
+    <!--js links-->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src=js/script.js></script>
+  </body>
+</html>
